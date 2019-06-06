@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<title>019-严格模式.html</title>
 	<script>
+		//针对整个文件,将"use strict"放在脚本文件的第一行,则整个脚本都将以"严格模式"运行,如果这行语句不在第一行,则无效
+		
+		//针对单个函数,将"use strict"放在函数体的第一行,则整个函数以"严格模式"运行
 		"use strict"
 		function sayHi(){
 			alert(!this);

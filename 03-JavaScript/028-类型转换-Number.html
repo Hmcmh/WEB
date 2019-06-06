@@ -4,6 +4,12 @@
 	<meta charset="UTF-8">
 	<title>028-类型转换-Number.html</title>
 	<script>
+		// 如果是纯数字的字符串，则直接将其转换为数字
+		// 如果字符串中有非数字的内容，则转换为NaN
+		// 如果字符串是一个空串或者是一个全是空格的字符串，则转换为0
+		// true 转成 1,false 转成 0
+		// null 转成0
+		//undefined转成NaN
 		var a = 'a123';
 		console.log(typeof a);
 		console.log(parseInt(a));

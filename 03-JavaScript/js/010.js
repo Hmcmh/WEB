@@ -4,7 +4,6 @@
 * @Last Modified by:   TomChen
 * @Last Modified time: 2018-11-22 18:58:57
 */
-
 function toChange(){
 	//alert('hi')
 	var oBox = document.getElementById('box');
@@ -16,4 +15,4 @@ function toChange(){
 var oBox = document.getElementById('box');
 // oBox.onclick = "toChange()";
 oBox.onclick = toChange;
-
+//精髓在于此，变量 = 选中标签 然后 改变onclick = 函数

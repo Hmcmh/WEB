@@ -5,9 +5,11 @@
 	<title>015-window.onload和DOMContentLoaded.html</title>
 	<script>
 		console.log('in...');
+		//window.onload 页面所有资源被被加载 触发
 		window.onload = function(){
 			console.log('onload');
 		}
+		//DOMContentLoaded不需要所有都加载完
 		document.addEventListener('DOMContentLoaded',function(){
 			console.log('DOMContentLoaded');
 		})
