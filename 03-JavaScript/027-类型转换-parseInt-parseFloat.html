@@ -14,6 +14,12 @@
 	var oTxt2 = document.getElementById('txt2');
 	var oBtn = document.getElementById('btn');
 
+
+//parseInt用来转换整数,parseFloat可以转换整数和小数
+// 如果第一个字符不是数字或者负号加数字,会返回NaN(Not a Number)
+// 从左到右解析直到第一个非数字为止 
+// 忽略字符串前面的空格
+
 	oBtn.onclick = function(){
 		/*
 		var val1 = parseInt(oTxt1.value);
