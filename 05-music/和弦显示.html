@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>转换</title>
+</head>
+<body>
+	<input type="text" id="txt1">
+	<button id="txt2">点击</button>
+</body>
+<script>
+	var oTxt1 =document.getElementById('txt1');
+	var oTxt2 =document.getElementById('txt2');
+
+	oTxt2.onclick = function(){
+		var oVal1 = parseFloat(oTxt1.value);
+		if(oTxt1.value == 1){
+			console.log('C和弦');
+		}else if(oTxt1.value == 2){
+			console.log('D和弦');
+		}else if(oTxt1.value == 3){
+			console.log('E和弦');
+		}else if(oTxt1.value == 4){
+			console.log('F和弦');
+		}else if(oTxt1.value == 5){
+			console.log('G和弦');
+		}else if(oTxt1.value == 6){
+			console.log('A和弦');
+		}else if(oTxt1.value == 7){
+			console.log('B和弦');
+		}else{
+			alert('您的输入有误')
+		}
+	}
+</script>
+</html>
