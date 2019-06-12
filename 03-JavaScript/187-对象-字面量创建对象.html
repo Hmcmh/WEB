@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>187-对象-字面量创建对象</title>
-	<script>
+	<!-- <script>
 		var obj = 	{
 						name:"Tom",
 						// name:'Leo', 属性无序唯一
@@ -22,7 +22,21 @@
 		console.log(obj);
 		console.log(obj.friends);
 		obj.sayHi();
-	</script>
+	</script> -->
+<script>
+	var obj = {
+
+		name : 'nam',
+		age : 18,
+		fff : 'qw',
+		sayHi:function(){
+		alert('Hi' + this.name)
+
+		}
+	}
+	console.log(obj);
+	console.log(obj.sayHi())
+</script>
 </head>
 <body>
 	
