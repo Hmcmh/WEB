@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>常见输出方式</title>
+</head>
+<body>
+	
+</body>
+<script>
+
+//弹窗  
+
+			alert('普通弹窗');
+				//浏览器弹窗
+
+			var content = prompt('请输入银行卡和密码');
+				//弹出一个输入框 可以var 一个变量 接收  用户输入的 值 
+
+			alert(content);
+				//浏览器弹出 用户输入的值 
+
+			var result = confirm('你确定删除吗？')
+				//confirm 弹出一个 确定  取消按钮  括号 里边是内容   var  变量  接收 用户点击 哪个 
+			alert(result) //弹出来  用户 点击的值 
+
+//页面输出
+			document.write('页面输出')
+				//页面输出
+			document.write('<h1>页面添加标签</h1>')
+				//因为这种方式 原理是 直接 在body后面  添加内容  所以 也可以 用这种方式   添加标签
+
+
+//控制台输出
+			console.log('内容');//控制台输出内容
+			console.error('错误');//控制台输出 错误信息
+			console.warn('警告'); //控制台输出  提示信息
+
+
+</script>
+</html>

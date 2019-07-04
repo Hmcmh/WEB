@@ -2,45 +2,36 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>022-基本数据类型.html</title>
-	<script>
-		//typeof 查看数据类型 
-		//引入 判断 
-		var a;
-
-		console.log(typeof a);
-		console.log(typeof b);
-		console.log(a);
-
-		var b = document.getElementById('box');
-		console.log(b);
-		console.log(typeof b);
-
-		var c = null;
-		console.log(typeof c);
-
-		var d = 1.2;
-		console.log(typeof d);
-
-
-		var e = 'kuazhu';
-		console.log(typeof e);
-		
-		var f = false;
-		console.log(typeof f);
-		console.log(typeof document);
-
-		function show() {
-		}
-
-
-		if(undefined){
-			console.log('ok');
-		}
-
-	</script>
+	<title>基本数据类型</title>
 </head>
 <body>
 	
 </body>
+<script>
+	//typeof 查看数据类型
+	//undefined 未定义 
+		var a; 
+		console.log(typeof a);//第一种  是没有赋值
+		console.log(typeof b);//第二种  是未定义
+
+	//null 空对象 
+		var b = document.getElementById('box');
+		console.log(b);//返回值 是 null 因为  页面找不到 box 这个节点 
+		console.log(typeof b);//返回的是  objeck   空对象 
+
+	//Number 数字类型
+		var d = 1.2;
+		console.log(typeof d);//返回数字类型 
+	//string 字符串类型
+		var l = 'www';
+		console.log(typeof l);
+
+	//boolean 布尔类型 
+		//布尔类型 取 真和假 
+		// true 非零数字  非空字符  非空对象
+		//false 数字零 ，空字符 ，null ，undedined
+
+
+
+</script>
 </html>

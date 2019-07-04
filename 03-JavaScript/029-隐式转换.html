@@ -4,34 +4,36 @@
 	<meta charset="UTF-8">
 	<title>029-隐式转换.html</title>
 	<script>
-		var a = '123';
+		// 减 乘 除  ==  会自动转换为 数字 nuber   转换 不了  返回 NaN
 
-		var b = a - 0;
+			var a = '123';
 
-		var c = a * 1;
+			var b = a - 0;
 
-		var d = a / 1;
+			var c = a * 1;
 
-		console.log(b);
-		console.log(typeof b);
+			var d = a / 1;
 
-		console.log(c);
-		console.log(typeof c);
+			console.log(b);
+			console.log(typeof b);
+
+			console.log(c);
+			console.log(typeof c);
 
 
-		console.log(d);
-		console.log(typeof d);
+			console.log(d);
+			console.log(typeof d);
 
-		if(a == 123){
-			console.log('eq');
-		}
+			if(a == 123){
+				console.log('eq');
+			}
 
-		if(undefined == null){
-			console.log('eq!');
-		}
-		if(undefined === null){
-			console.log('eq!!');
-		}
+			if(undefined == null){
+				console.log('eq!');
+			}
+			if(undefined === null){
+				console.log('eq!!');
+			}
 	</script>
 </head>
 <body>

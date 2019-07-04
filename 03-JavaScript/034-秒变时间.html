@@ -5,13 +5,20 @@
 	<title>034-秒变时间.html</title>
 	<script>
 		var iSecond = 7670;
+			//总秒数
 
 		var hour = parseInt(iSecond / 3600);
+			//得出小时 parseInt转换为整数
 
 		var minute = parseInt((iSecond % 3600) / 60);
+			//余数 除以 60 得分钟
 
 		var second = (iSecond % 3600) % 60;
+			//余数 除以60 得出秒
 
+
+			//判断  利用判断   小于10 的话 就 在小时  分  秒  前面 加 " 0 "
+			// 为了显示 这样的 效果  10:20:20   
 		if(hour < 10){
 			hour = '0' + hour;
 		}
@@ -23,9 +30,8 @@
 		}
 
 
-		//10:20:20
-		alert(hour+":"+minute+":"+second);
-
+		// 最后利用字符串 连接 
+			alert(hour+":"+minute+":"+second);
 
 
 	</script>

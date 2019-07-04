@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加节点</title>
+</head>
+<body>
+	<button>插入1</button>
+	<button>插入2</button>
+	<button>插入3</button>
+	<button>插入4</button>
+	<button>插入5</button>
+	<button>插入6</button>
+	<ul>
+		<li>li1</li>
+		<li>li2</li>
+		<li>li3</li>
+		<li>li4</li>
+	</ul>
+</body>
+<script src="js/jquery-1.12.4.js"></script>
+<script>
+	$(function(){
+		$('button').eq(0).on('click',function(){
+			var $li = $('<li>我是插入的</li>');
+			$('ul').append($li);
+		});
+
+	})
+</script>
+</html>

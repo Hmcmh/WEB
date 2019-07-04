@@ -4,101 +4,13 @@
 	<meta charset="UTF-8">
 	<title>选项卡</title>
 	<style>
-		#box1{
-			position: absolute;
-			top: 100px;
-			left: 20px;
-			width: 300px;
-			height: 400px;
-			background: purple;
-		}
-		#box2{
-			position: absolute;
-			top: 100px;
-			left: 20px;
-			width: 300px;
-			height: 400px;
-			background: pink;
-		}
-		#box3{
-			position: absolute;
-			top: 100px;
-			left: 20px;
-			width: 300px;
-			height: 400px;
-			background: red;
-		}
-		#box4{
-			position: absolute;
-			top: 100px;
-			left: 20px;
-			width: 300px;
-			height: 400px;
-			background: green;
-		}
-		.lol{
-			padding: 15px;
-			font-size: 30px;	
-		}
+		
 	</style>
 </head>
 <body>
-	<span id="pin1" class="lol">电器</span>
-	<span id="pin2" class="lol">电脑</span>
-	<span id="pin3" class="lol">平板</span>
-	<span id="pin4" class="lol">iphone</span>
-	<div id="box1"></div>
-	<div id="box2"></div>
-	<div id="box3"></div>
-	<div id="box4"></div>
+
 </body>
 <script>
-	var pp = document.getElementById('box1');
-	var dd = document.getElementById('box2');
-	var aa = document.getElementById('box3');
-	var vv = document.getElementById('box4');
 
-
-
-	// span点击变色
-	var b1 = getElementsById('pin1');
-	var b2 = getElementsById('pin2');
-	var b3 = getElementsById('pin3');
-	var b4 = getElementsById('pin4');
-
-
-
-
-
-
-	var olt = document.getElementById('pin1');
-	var oat = document.getElementById('pin2');
-	var obt = document.getElementById('pin3');
-	var oct = document.getElementById('pin4');
-	olt.onclick = function(){
-		b1.style.color = 'red';
-		pp.style.zIndex = '1000';
-		dd.style.zIndex= '0';
-		aa.style.zIndex = '0';
-		vv.style.zIndex = '0';
-	}
-	oat.onclick = function(){
-		dd.style.zIndex = '1000';
-		pp.style.zIndex= '0';
-		aa.style.zIndex = '0';
-		vv.style.zIndex = '0';
-	}
-	obt.onclick = function(){
-		aa.style.zIndex = '1000';
-		dd.style.zIndex= '0';
-		pp.style.zIndex = '0';
-		vv.style.zIndex = '0';
-	}
-	oct.onclick = function(){
-		vv.style.zIndex = '1000';
-		dd.style.zIndex= '0';
-		aa.style.zIndex = '0';
-		bb.style.zIndex = '0';
-	}
 </script>
 </html>
